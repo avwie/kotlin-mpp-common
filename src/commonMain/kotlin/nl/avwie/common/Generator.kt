@@ -4,6 +4,6 @@ fun interface Generator<T> {
     fun generate(): T
 
     companion object {
-        val UUID = Generator { nl.rjcoding.common.UUID.random() }
+        val UUID = Generator { nl.avwie.common.UUID.random() }
     }
 }

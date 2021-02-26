@@ -1,3 +1,3 @@
 
-rootProject.name = "common"
+rootProject.name = "kotlin-mpp-common"
 

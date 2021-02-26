@@ -1,8 +1,8 @@
 package nl.avwie.common.extensions
 
-import nl.rjcoding.common.ReadBus
-import nl.rjcoding.common.ReadBusReceiver
-import nl.rjcoding.common.ReadBusSubscription
+import nl.avwie.common.ReadBus
+import nl.avwie.common.ReadBusReceiver
+import nl.avwie.common.ReadBusSubscription
 
 fun <Message> ReadBus<Message>.subscribe(block: (Message) -> Message): ReadBusSubscription {
     val receiver = ReadBusReceiver<Message> { block(it) }

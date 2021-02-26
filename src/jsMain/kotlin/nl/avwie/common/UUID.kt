@@ -1,7 +1,7 @@
 package nl.avwie.common
 
 import kotlinx.serialization.Serializable
-import nl.rjcoding.jsinterop.UUIDAdapter
+import nl.avwie.common.jsinterop.UUIDAdapter
 
 @Serializable(with = UUIDAsStringSerializer::class)
 actual data class UUID(private val inner: String) {

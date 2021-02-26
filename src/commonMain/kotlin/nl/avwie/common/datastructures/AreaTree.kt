@@ -1,6 +1,6 @@
 package nl.avwie.common.datastructures
 
-import nl.rjcoding.common.*
+import nl.avwie.common.*
 import kotlin.math.max
 
 sealed class AreaTree<T> : HasArea<Int> {
