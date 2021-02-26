@@ -4,7 +4,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "nl.rjcoding"
+group = "nl.avwie"
 version = "1.0-SNAPSHOT"
 
 repositories {
